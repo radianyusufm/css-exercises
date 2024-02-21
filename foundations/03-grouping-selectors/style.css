@@ -1,0 +1,15 @@
+
+.btn {
+    font-size: 28px;
+    font-family: 'Helveticadan', 'Times New Roman', sans-serif;
+}
+
+.click-me {
+    background-color: black;
+    color: white;
+    font-weight: bold;
+}
+
+.no-click-me {
+    background-color: yellow;
+}

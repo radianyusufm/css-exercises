@@ -1,0 +1,20 @@
+.odd {
+    background-color: hsl(306, 66%, 71%);
+    font-family: Verdana, 'DejaVu Sans', sans-serif;
+}
+
+#n-2 {
+    color: hsl(248, 93%, 71%);
+    font-size: 36px;
+}
+
+.font-24px{
+    font-size: 24px;
+}
+
+#n-4{
+    background-color: hsl(126, 93%, 71%);
+    font-size: 24px;
+    font-weight: bold;
+}
+

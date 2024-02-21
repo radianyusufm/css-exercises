@@ -1,1 +1,14 @@
 /* Add CSS Styling */
+/* 
+Buat elemen dengan kelas avatardan proportionedlebar 300 piksel, lalu beri tinggi agar tetap mempertahankan proporsi persegi aslinya (jangan melakukan hardcode dalam nilai piksel untuk tingginya!).
+Buat elemen dengan kelas avatardan distortedlebar 200 piksel, lalu buat tingginya dua kali lebih besar dari lebarnya (di sini Anda harus melakukan hardcode dalam nilai piksel). */
+
+.avatar.proportioned {
+    width: 300px;
+    height: auto;
+}
+
+.avatar.distorted {
+    width: 200px;
+    height: 400px;
+}
