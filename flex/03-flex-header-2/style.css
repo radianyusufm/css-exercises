@@ -9,6 +9,9 @@ body {
 }
 
 .header {
+  padding: 8px;
+  display: flex;
+  justify-content: space-between;
   background: white;
   border-bottom: 1px solid #ddd;
   box-shadow: 0 0 8px rgba(0,0,0,.1);
@@ -35,6 +38,7 @@ button {
   background: rebeccapurple;
   color: white;
   padding: 8px 24px;
+  margin: 8px;
 }
 
 a {
@@ -44,5 +48,13 @@ a {
 }
 
 ul {
+  display: flex;
   list-style-type: none;
+  gap: 8px;
+}
+
+.left, .right{
+  display: flex;
+  align-items: center;
+  margin: 16px;
 }
