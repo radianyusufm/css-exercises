@@ -1,3 +1,10 @@
+/* Div One dan Div Three memiliki 32px antara teks dan batasnya.
+Div One memiliki 12px antara itu dan elemen lain di halaman.
+Ada jarak 48px antara Div Dua dan Div Tiga.
+Div Tiga sejajar ke kanan.
+Penyelarasan Div Three dicapai dengan menggunakan margin(dan bukan float, flexbox, dl */
+
+
 body {
   max-width: 600px;
   margin: 0 auto;
@@ -7,15 +14,15 @@ body {
   background: pink;
   border: 3px solid blue;
   /* CHANGE ME */
-  padding: 0px;
-  margin: 0px;
+  padding: 32px;
+  margin: 12px;
 }
 
 .two {
   background: lightblue;
   border: 3px solid purple;
   /* CHANGE ME */
-  margin-bottom: 0px;
+  margin-bottom: 48px;
 }
 
 .three {
@@ -23,6 +30,6 @@ body {
   border: 3px solid brown;
   width: 200px;
   /* CHANGE ME */
-  padding: 0px;
-  margin-left: 0px;
+  padding: 32px;
+  margin-left: auto;
 }
